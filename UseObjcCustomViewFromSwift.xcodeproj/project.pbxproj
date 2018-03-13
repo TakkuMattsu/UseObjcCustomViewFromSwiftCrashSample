@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FEC0A60C205824C80074AABE /* CustomSwiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC0A60B205824C80074AABE /* CustomSwiftView.swift */; };
 		FEC4E2682058106500BAE586 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC4E2672058106500BAE586 /* AppDelegate.swift */; };
 		FEC4E26A2058106500BAE586 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC4E2692058106500BAE586 /* ViewController.swift */; };
 		FEC4E26D2058106500BAE586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC4E26B2058106500BAE586 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FEC0A60B205824C80074AABE /* CustomSwiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwiftView.swift; sourceTree = "<group>"; };
 		FEC4E2642058106500BAE586 /* UseObjcCustomViewFromSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UseObjcCustomViewFromSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC4E2672058106500BAE586 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEC4E2692058106500BAE586 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,14 +61,15 @@
 			isa = PBXGroup;
 			children = (
 				FEC4E2672058106500BAE586 /* AppDelegate.swift */,
-				FEC4E2692058106500BAE586 /* ViewController.swift */,
-				FEC4E26B2058106500BAE586 /* Main.storyboard */,
 				FEC4E26E2058106500BAE586 /* Assets.xcassets */,
-				FEC4E2702058106500BAE586 /* LaunchScreen.storyboard */,
-				FEC4E2732058106500BAE586 /* Info.plist */,
 				FEC4E27A2058109800BAE586 /* CustomObjcView.h */,
 				FEC4E27B2058109800BAE586 /* CustomObjcView.m */,
+				FEC0A60B205824C80074AABE /* CustomSwiftView.swift */,
+				FEC4E2732058106500BAE586 /* Info.plist */,
+				FEC4E2702058106500BAE586 /* LaunchScreen.storyboard */,
+				FEC4E26B2058106500BAE586 /* Main.storyboard */,
 				FEC4E2792058109800BAE586 /* UseObjcCustomViewFromSwift-Bridging-Header.h */,
+				FEC4E2692058106500BAE586 /* ViewController.swift */,
 			);
 			path = UseObjcCustomViewFromSwift;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				FEC4E26A2058106500BAE586 /* ViewController.swift in Sources */,
 				FEC4E2682058106500BAE586 /* AppDelegate.swift in Sources */,
 				FEC4E27C2058109800BAE586 /* CustomObjcView.m in Sources */,
+				FEC0A60C205824C80074AABE /* CustomSwiftView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

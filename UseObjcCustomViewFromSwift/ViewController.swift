@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var customView: CustomObjcView!
+    @IBOutlet weak var customView: CustomSwiftView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -26,5 +26,11 @@ extension ViewController: CustomObjcViewDelegate {
     func didTapped(_ customView: CustomObjcView!) {
         print("tap!!");
     }
-    
+
+}
+
+extension ViewController: CustomSwiftViewDelegate {
+    func didTapped(customView: CustomSwiftView) {
+        print("tap!!")
+    }
 }
